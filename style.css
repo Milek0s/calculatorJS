@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Ubuntu:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Martian Mono", monospace;
+  background: url("bg.jpg");
+  background-position: center;
+  background-size: unset;
+}
+main {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.768);
+  width: 500px;
+  height: 400px;
+  display: grid;
+  grid-area: auto;
+  grid-template: 100px 100px 100px 100px / 100px 100px 100px 100px 100px;
+  border-radius: 8px;
+}
+aside {
+  background: rgba(0, 0, 0, 0.768);
+  width: 500px;
+  height: 150px;
+  border-radius: 8px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  display: block;
+  padding: 5px 20px;
+}
+#action {
+  font-size: 20px;
+  color: rgb(196, 196, 196);
+}
+#result {
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+}
+button {
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  border: 0;
+  background-color: transparent;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: rgba(29, 29, 29, 0.835);
+  color: lightskyblue;
+}
+.double {
+  grid-column: 4/6;
+}
